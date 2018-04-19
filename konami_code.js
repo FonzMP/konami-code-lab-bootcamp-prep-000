@@ -13,7 +13,6 @@ function init() {
       if (index === code.length) {
         alert("Hurray, you did it!");
         index = 0;
-        return
       }
     } else {
       alert('Code has been reset');
