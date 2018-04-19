@@ -4,7 +4,7 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-  console.log('working');
+  
 }
 
 document.body.addEventListener('keydown', init());
