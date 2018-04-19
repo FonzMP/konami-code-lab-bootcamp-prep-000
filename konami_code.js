@@ -7,7 +7,8 @@ function init(e) {
   if (key === alphabet[index]) {
     if(i + 1 === code.length) {
       alert("Hurray!");
-      return;
+      index = 0;
+      return
     }
   } else {
     index = 0;
