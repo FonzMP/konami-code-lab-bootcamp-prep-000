@@ -16,7 +16,6 @@ function init() {
         return
       }
     } else {
-      alert('Code has been reset');
       index = 0;
     }
   });
