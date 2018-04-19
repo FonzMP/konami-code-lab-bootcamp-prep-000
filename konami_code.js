@@ -8,7 +8,7 @@ function init(e) {
   console.log(key);
   if (key === parseInt(codeArray[index])) {
     index++;
-    if (index === code.length) {
+    if (index === codeArray.length) {
       alert("Hurray, you did it!");
       index = 0;
     }
