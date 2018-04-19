@@ -15,5 +15,5 @@ function init(e) {
   }
 }
 
-const bodyVar= document.body;
-console.log(bodyVar);
+const bodyVar = document.body;
+bodyVar.addEventListener('keydown', init());
