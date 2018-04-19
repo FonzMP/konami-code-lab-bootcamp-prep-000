@@ -4,7 +4,7 @@ let index = 0;
 
 function init(e) {
   // Write your JavaScript code inside the init() function
-  const key = parseInt(e.key);
+  const key = e.key;
   console.log(key);
   if (key === parseInt(code[index])) {
     index++;
