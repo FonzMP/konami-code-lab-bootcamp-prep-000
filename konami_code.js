@@ -16,4 +16,4 @@ function init(e) {
 }
 
 const bodyVar = document.body;
-bodyVar.addEventListener('keydown', init(e));
+bodyVar.addEventListener('keydown', init);
