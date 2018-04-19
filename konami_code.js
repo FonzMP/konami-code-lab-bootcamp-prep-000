@@ -12,5 +12,7 @@ function init() {
       alert('Yay, you did it!');
       index = 0;
     }
+  } else {
+    index = 0;
   }
 }
