@@ -13,7 +13,7 @@ function init(e) {
       index = 0;
     }
   } else {
-    console.log('Code has been reset');
+    alert('Code has been reset');
     index = 0;
   }
 }
