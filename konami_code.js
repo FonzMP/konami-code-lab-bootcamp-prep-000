@@ -15,7 +15,7 @@ function init() {
         index = 0;
       }
     } else {
-      alert('Code has been reset');
+      // alert('Code has been reset');
       index = 0;
     }
   });
