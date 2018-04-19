@@ -8,6 +8,12 @@ function init(e) {
   console.log(key);
   if (key === code[index]) {
     index++;
+    if (index === code.length) {
+      alert("Hurray, you did it!");
+    }
+  } else {
+    console.log('Code has been reset');
+    index = 0;
   }
 }
 
