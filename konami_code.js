@@ -10,6 +10,7 @@ function init(e) {
     index++;
     if (index === code.length) {
       alert("Hurray, you did it!");
+      index = 0;
     }
   } else {
     console.log('Code has been reset');
