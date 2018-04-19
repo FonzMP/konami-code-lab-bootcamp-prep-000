@@ -8,7 +8,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   bodyVar.addEventListener('keydown', function(e){
     const key = parseInt(e.detail || e.which);
-    if (key === parseInt(code[index])) {
+    if (key === code[index]) {
       index++;
       if (index === code.length) {
         alert("Hurray, you did it!");
