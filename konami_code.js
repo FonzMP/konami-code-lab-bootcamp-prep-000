@@ -15,5 +15,5 @@ function init(e) {
   }
 }
 
-const body = document.body;
+const bodyVar= document.body;
 console.log(bodyVar);
