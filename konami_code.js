@@ -1,14 +1,14 @@
-const codeArray = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 let index = 0;
 
 function init(e) {
   // Write your JavaScript code inside the init() function
-  const key = e.code;
+  const key = e.which;
   console.log(key);
-  if (key === parseInt(codeArray[index])) {
+  if (key === parseInt(code[index])) {
     index++;
-    if (index === codeArray.length) {
+    if (index === code.length) {
       alert("Hurray, you did it!");
       index = 0;
     }
