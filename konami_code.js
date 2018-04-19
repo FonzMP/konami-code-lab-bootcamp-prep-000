@@ -16,4 +16,4 @@ function init(e) {
 }
 
 const body = document.body;
-console.log(body);
+console.log(bodyVar);
