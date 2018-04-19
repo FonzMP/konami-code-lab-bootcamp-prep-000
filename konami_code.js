@@ -6,18 +6,7 @@ let index = 0;
 
 function init(e) {
   // Write your JavaScript code inside the init() function
-  const key = parseInt(e.which);
-
-  if (key === parseInt(code[index])) {
-    index++;
-    if (index === code.length) {
-      alert('Yay, you did it!');
-      index = 0;
-    }
-  } else {
-    console.log("Nope");
-    index = 0;
-  }
+  
 }
 
 document.body.addEventListener('keydown', init());
