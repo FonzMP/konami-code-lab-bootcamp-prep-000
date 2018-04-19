@@ -11,11 +11,11 @@ function init() {
     if (key === parseInt(code[index])) {
       index++;
       if (index === code.length) {
-        alert("Hurray, you did it!");
         index = 0;
         return
       }
     } else {
+      alert('Code has been reset');
       index = 0;
     }
   });
