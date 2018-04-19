@@ -9,7 +9,6 @@ document.body.addEventListener('keydown', function(e){
 
 function init() {
   // Write your JavaScript code inside the init() function
-
   if (key === code[index]) {
     index++;
 
