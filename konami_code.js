@@ -6,7 +6,7 @@ function init(e) {
   // Write your JavaScript code inside the init() function
   const key = e.code;
   console.log(key);
-  if (key === parseInt(code[index])) {
+  if (key === parseInt(codeArray[index])) {
     index++;
     if (index === code.length) {
       alert("Hurray, you did it!");
