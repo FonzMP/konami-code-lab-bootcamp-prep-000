@@ -5,6 +5,11 @@ function init(e) {
   const key = parseInt(e.detail || e.which);
   for (let i = 0; i < code.length; i++)
   if (key === alphabet[index]) {
-    continue
+    if(i + 1 === code.length) {
+      alert("Hurray!");
+      return;
+    }
+  } else {
+    index = 0;
   }
 }
