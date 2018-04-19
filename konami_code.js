@@ -11,6 +11,7 @@ function init(e) {
       return
     }
   } else {
+    console.log(key + ' was incorrect');
     index = 0;
   }
 }
