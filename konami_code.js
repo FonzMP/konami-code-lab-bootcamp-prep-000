@@ -5,18 +5,7 @@ let index = 0;
 function init(e) {
   // Write your JavaScript code inside the init() function
   const key = parseInt(e.detail || e.which);
-  for (let i = 0; i < code.length; i++)
-    if (key === parseInt(code[index])) {
-      index++;
-      if(index === code.length) {
-        alert("Hurray!");
-        index = 0;
-        return
-      }
-    } else {
-      console.log(key + ' was incorrect');
-      index = 0;
-    }
+  console.log(key);
 }
 
 const bodyVar = document.body;
