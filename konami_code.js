@@ -4,16 +4,16 @@ function init(e) {
   // Write your JavaScript code inside the init() function
   const key = parseInt(e.detail || e.which);
   for (let i = 0; i < code.length; i++)
-  if (key === code[i]) {
-    if(i === code.length) {
-      alert("Hurray!");
+    if (key === code[i]) {
+      if(i === code.length) {
+        alert("Hurray!");
+        index = 0;
+        return
+      }
+    } else {
+      console.log(key + ' was incorrect');
       index = 0;
-      return
     }
-  } else {
-    console.log(key + ' was incorrect');
-    index = 0;
-  }
 }
 
 const bodyVar = document.body;
