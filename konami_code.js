@@ -13,6 +13,7 @@ function init() {
       index = 0;
     }
   } else {
+    console.log("Nope")
     index = 0;
   }
 }
